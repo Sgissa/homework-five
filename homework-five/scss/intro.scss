@@ -1,0 +1,43 @@
+.about-intro{
+    .page-title {
+        max-width: 150px;
+        height: 60px;
+        // background-color: blue;
+        margin-top: 109px;
+        margin-left: 150px;
+
+        .title-word{
+            font-family: roboto;
+            font-size: 60px;
+            border-bottom: 3px solid black ;
+        }
+    }
+
+    .textbox{
+        max-width: 980px;
+        height: 96px;
+        // background-color: bisque;
+        margin-top: 39px;
+        margin-left: 150px;
+
+        .textbox-text{
+            font-family: Gill Sans;
+            font-size: 16px;
+        }
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .about-intro {
+    //   background-color: lightblue;
+      .page-title{
+        max-height: 800px;
+      }
+
+      .textbox{
+        max-height: 800px;
+        margin-bottom: 10px;
+      }
+
+    }
+  }
